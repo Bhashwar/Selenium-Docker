@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-vendor_portal" class="navigator-link">
+              <span class="suite-name border-passed">vendor-portal</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-vendor_portal" class="navigator-link ">
+                    <span>vendor-portal.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-vendor_portal" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-vendor_portal" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-vendor_portal" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-vendor_portal" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-vendor_portal" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-vendor_portal" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-vendor_portal" class="hide-methods passed suite-vendor_portal"> (hide)</a> <!-- hide-methods passed suite-vendor_portal -->
+                      <a href="#" panel-name="suite-vendor_portal" class="show-methods passed suite-vendor_portal"> (show)</a> <!-- show-methods passed suite-vendor_portal -->
+                    </span>
+                    <div class="method-list-content passed suite-vendor_portal">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-vendor_portal" title="com.bhashwardeep.tests.vendorportal.VendorPortalTest" class="method navigator-link" hash-for-method="dashboardTest">dashboardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-vendor_portal" title="com.bhashwardeep.tests.vendorportal.VendorPortalTest" class="method navigator-link" hash-for-method="dashboardTest">dashboardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-vendor_portal" title="com.bhashwardeep.tests.vendorportal.VendorPortalTest" class="method navigator-link" hash-for-method="dashboardTest">dashboardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-vendor_portal" title="com.bhashwardeep.tests.vendorportal.VendorPortalTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-vendor_portal" title="com.bhashwardeep.tests.vendorportal.VendorPortalTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-vendor_portal" title="com.bhashwardeep.tests.vendorportal.VendorPortalTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-vendor_portal" title="com.bhashwardeep.tests.vendorportal.VendorPortalTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-vendor_portal" title="com.bhashwardeep.tests.vendorportal.VendorPortalTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-vendor_portal" title="com.bhashwardeep.tests.vendorportal.VendorPortalTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-vendor_portal -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-vendor_portal" class="panel vendor_portal">
+          <div class="suite-vendor_portal-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bhashwardeep.tests.vendorportal.VendorPortalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardTest">
+                  </a> <!-- dashboardTest -->
+                  <span class="method-name">dashboardTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardTest">
+                  </a> <!-- dashboardTest -->
+                  <span class="method-name">dashboardTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboardTest">
+                  </a> <!-- dashboardTest -->
+                  <span class="method-name">dashboardTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-vendor_portal-class-passed -->
+        </div> <!-- panel vendor_portal -->
+        <div panel-name="test-xml-vendor_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/selenium-docker/test-suites/vendor-portal.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;vendor-portal&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;user-sam&quot;&gt;
+    &lt;parameter name=&quot;testDataPath&quot; value=&quot;test-data/vendorPortal/sam.json&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bhashwardeep.tests.vendorportal.VendorPortalTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- user-sam --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;user-mike&quot;&gt;
+    &lt;parameter name=&quot;testDataPath&quot; value=&quot;test-data/vendorPortal/mike.json&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bhashwardeep.tests.vendorportal.VendorPortalTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- user-mike --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;user-john&quot;&gt;
+    &lt;parameter name=&quot;testDataPath&quot; value=&quot;test-data/vendorPortal/john.json&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bhashwardeep.tests.vendorportal.VendorPortalTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- user-john --&gt;
+&lt;/suite&gt; &lt;!-- vendor-portal --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-vendor_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for vendor-portal</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">user-sam (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">user-mike (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">user-john (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-vendor_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for vendor-portal</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-vendor_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for vendor-portal</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_vendor_portal');
+function tableData_vendor_portal() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'dashboardTest')
+data.setCell(0, 2, 'com.bhashwardeep.tests.vendorportal.VendorPortalTest')
+data.setCell(0, 3, 6690);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'com.bhashwardeep.tests.vendorportal.VendorPortalTest')
+data.setCell(1, 3, 2304);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dashboardTest')
+data.setCell(2, 2, 'com.bhashwardeep.tests.vendorportal.VendorPortalTest')
+data.setCell(2, 3, 1764);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginTest')
+data.setCell(3, 2, 'com.bhashwardeep.tests.vendorportal.VendorPortalTest')
+data.setCell(3, 3, 1724);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'logoutTest')
+data.setCell(4, 2, 'com.bhashwardeep.tests.vendorportal.VendorPortalTest')
+data.setCell(4, 3, 1714);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logoutTest')
+data.setCell(5, 2, 'com.bhashwardeep.tests.vendorportal.VendorPortalTest')
+data.setCell(5, 3, 1530);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginTest')
+data.setCell(6, 2, 'com.bhashwardeep.tests.vendorportal.VendorPortalTest')
+data.setCell(6, 3, 1438);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'logoutTest')
+data.setCell(7, 2, 'com.bhashwardeep.tests.vendorportal.VendorPortalTest')
+data.setCell(7, 3, 1358);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'dashboardTest')
+data.setCell(8, 2, 'com.bhashwardeep.tests.vendorportal.VendorPortalTest')
+data.setCell(8, 3, 1308);
+window.suiteTableData['vendor_portal']= { tableData: data, tableDiv: 'times-div-vendor_portal'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <div id="times-div-vendor_portal">
+              </div> <!-- times-div-vendor_portal -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-vendor_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for vendor-portal</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-vendor_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-vendor_portal" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bhashwardeep.tests.vendorportal.VendorPortalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupConfig</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(org.testng.TestRunner@54e7df6a)</span>
+                <span class="method-start">52 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(org.testng.TestRunner@3fed2870)</span>
+                <span class="method-start">52 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(org.testng.TestRunner@77128536)</span>
+                <span class="method-start">52 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setPageObjects(test-data/vendorPortal/mike.json)</span>
+                <span class="method-start">2825 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">3220 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dashboardTest</span>
+                <span class="method-start">5545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">7311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">8842 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setPageObjects(test-data/vendorPortal/sam.json)</span>
+                <span class="method-start">9922 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">9932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dashboardTest</span>
+                <span class="method-start">11657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">18349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">20063 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setPageObjects(test-data/vendorPortal/john.json)</span>
+                <span class="method-start">20863 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">20869 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dashboardTest</span>
+                <span class="method-start">22308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">23618 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">24977 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

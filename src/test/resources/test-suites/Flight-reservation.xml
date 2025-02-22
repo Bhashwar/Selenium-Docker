@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="flight-reservation" parallel="tests" thread-count="4">
+    <test name="passengers-count-1">
+        <parameter name="testDataPath" value="test-data/FlightReservation/Passenger1.json" />
+        <classes>
+            <class name="com.bhashwardeep.tests.flightreservation.FlightReservationTest"/>
+        </classes>
+    </test>
+    <test name="passengers-count-2">
+        <parameter name="testDataPath" value="test-data/FlightReservation/Passenger2.json" />
+        <classes>
+            <class name="com.bhashwardeep.tests.flightreservation.FlightReservationTest"/>
+        </classes>
+    </test>
+    <test name="passengers-count-3">
+        <parameter name="testDataPath" value="test-data/FlightReservation/Passenger3.json" />
+        <classes>
+            <class name="com.bhashwardeep.tests.flightreservation.FlightReservationTest"/>
+        </classes>
+    </test>
+    <test name="passengers-count-4">
+        <parameter name="testDataPath" value="test-data/FlightReservation/Passenger4.json" />
+        <classes>
+            <class name="com.bhashwardeep.tests.flightreservation.FlightReservationTest"/>
+        </classes>
+    </test>
+</suite>
